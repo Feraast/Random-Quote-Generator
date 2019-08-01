@@ -1,0 +1,57 @@
+/*Make the button mediumorchid with rounded edges, and to be in the right position below the quote
+button*/
+
+button{   
+font-size: 15em;
+border-radius: 25px;
+margin:0;
+background-color: mediumorchid;
+border: none;
+color: coral;
+padding: 15px 32px;
+text-decoration: none;
+display: inline-block;
+position:absolute;
+top:78%;
+left:43%;
+}
+
+/*Adjusting font and position of quotes on the page */
+.quote{
+
+font-size: 5em;
+margin:0;
+padding:0;
+text-align: center;
+font-family: 'Crimson Text', serif;
+position:absolute;
+top: 40%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+    
+}
+
+/*Same as above*/
+.source{
+    
+font-size: 2em;
+margin:0
+padding:0;
+text-align:center;
+font-family: 'Crimson Text', serif;
+position:absolute;
+top:60%;
+left:65%;
+    
+}
+/*citations are in italic*/
+.citation{
+    font-style: italic;
+}
+
+
+.year{
+    
+    font-style: italic;
+    
+}
